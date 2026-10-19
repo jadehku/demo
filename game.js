@@ -1526,7 +1526,6 @@ $('muteBtn').addEventListener('click', () => {
   if (sfxBus) sfxBus.gain.value = sfxOn ? 0.9 : 0;
   saveAudioPrefs(); refreshAudioButtons();
 });
-$('pauseBtn').addEventListener('click', togglePause);
 refreshAudioButtons();
 setMusic('menu');
 
